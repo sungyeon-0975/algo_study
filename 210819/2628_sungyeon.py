@@ -7,12 +7,12 @@ if __name__ == "__main__":
             horizontal.append(b)
         else:
             vertical.append(b)
-    vertical.sort()
-    horizontal.sort()
-    max_width, max_height = 0, 0
-    for i in range(1, len(horizontal)):
-        max_height = max(max_height, horizontal[i] - horizontal[i-1])
-    for i in range(1, len(vertical)):
-        max_width = max(max_width, vertical[i] - vertical[i-1])
 
-    print(max_width*max_height)
+    def find_max_len(l):
+        l.sort()
+        max_len = 0
+        for i in range(1, len(l)):
+            max_len = max(max_len, l[i] - l[i-1])
+        return max_len
+
+    print(find_max_len(vertical) * find_max_len(horizontal))
