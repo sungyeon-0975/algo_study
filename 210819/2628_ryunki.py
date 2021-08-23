@@ -1,6 +1,4 @@
-import sys
 
-sys.stdin = open('input.txt')
 
 # 가로와 세로로 자를 번호를 저장하고 각 번호들의 차이 중에서 가장 큰 값들이 결국 가장 큰 사각형의 넓이
 def search(data):
