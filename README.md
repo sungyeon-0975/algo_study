@@ -1,12 +1,10 @@
-# &#10024;Python Algorithm Study&#10024;
-
-
+# Python Algorithm Study
 
 ### &#128204; 닉네임
 
 - 김기솔 : kisol
 
-- 김성연 : sungyeon
+- 김성연 : sy
 
 - 이륜기 : ryunki
 
@@ -22,18 +20,12 @@
 ```tex
 algo_study/(.git)
 	210805/  #deadline기준
-		normal/
-			[문제번호]_[이름].py
-			...
-		hard/
-			[문제번호]_[이름].py
+        [문제번호]_[이름].py
+		[문제번호]_[이름].py
 			...
 	210812/
-		normal/
-			[문제번호]_[이름].py
-			...
-		hard/
-			[문제번호]_[이름].py
+    	[문제번호]_[이름].py
+        [문제번호]_[이름].py
 			...
 	
 ```
@@ -41,7 +33,6 @@ algo_study/(.git)
 위와같은 형식으로 파일관리
 
 - push전에는 pull필수!
-- 
 
 
 
