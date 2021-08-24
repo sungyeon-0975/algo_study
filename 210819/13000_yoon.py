@@ -20,4 +20,4 @@ for i in range(6):
         else:
             rooms += arr[i][j] // K
 
-print(rooms) # 제출 성공 (100점!)
+print(rooms)
