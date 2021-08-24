@@ -8,6 +8,7 @@ if __name__ == "__main__":
         else:
             vertical.append(b)
 
+
     def find_max_len(l):
         l.sort()
         max_len = 0
