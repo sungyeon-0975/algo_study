@@ -3,6 +3,8 @@
 2. 리스트를 높이를 기준으로 내림차순으로 정렬
 3. 기둥을 기준으로 왼쪽 오른쪽으로 다음 높은 기둥을 구한다.
 4. 그 기둥과 인덱스와 떨어진만큼 거리를 곱하여 넓이를 구한다.
+
+시간 - 80 ms
 '''
 
 import sys
@@ -14,6 +16,7 @@ n_list = [list(map(int, sys.stdin.readline().split())) for _ in range(n)]
 answer = 0
 
 n_list.sort(key=lambda x: x[1], reverse=True)               # 기둥 리스트를 높이를 기준으로 내림차순으로 정렬
+print(n_list)
 
 center_idx = left_idx = right_idx = n_list[0][0]            # 가장 높은 기둥의 인덱스 (값 고정) / 왼쪽에 높은 기둥 나타나면 인덱스 갱신 / 오른쪽에 높은 기둥 나타나면 인덱스 갱신
 answer += n_list[0][1]                                      # 가장 높은 기둥은 1칸 * 높이 의 넓이를 가지므로 초기 넓이로 설정해준다.
