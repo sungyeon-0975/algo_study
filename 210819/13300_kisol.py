@@ -7,7 +7,7 @@ rooms = 0
 
 for _ in range(N):
     gender, grade = map(int, input().split())
-    students[grade - 1][gender] += 1
+    students[grade-1][gender] += 1
 
 for grade in range(6):
     for gender in range(2):
