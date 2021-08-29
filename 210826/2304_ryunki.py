@@ -1,7 +1,7 @@
 import sys
 
 sys.stdin = open('input.txt')
-
+# 튜플로 해야했다.
 
 N = int(input())
 data = []

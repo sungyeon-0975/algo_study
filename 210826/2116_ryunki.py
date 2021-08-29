@@ -4,7 +4,8 @@ sys.stdin = open('input.txt')
 
 
 # 마주볼때 옆면의 최댓값들의 합?
-
+import sys
+input = sys.stdin.readline
 def max_sum(data):
     result = [] # 경우의 수들을 저장하는 리스트
     for j in range(6): # 첫 주사위를 각 면을 빼면서 옆면들의 최댓값을 구하는 반복
