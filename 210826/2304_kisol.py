@@ -1,7 +1,7 @@
 import sys
 
 input = sys.stdin.readline
-
+# 72ms
 
 def Warmhouse(start, sec_H, Reverse=False):
     global A
@@ -39,9 +39,7 @@ nums.sort()
 # A(맨앞~맨뒤기둥 거리 x 가장 큰 기둥 높이) - B{(구간 별 가장 큰 기둥 높이 - 그 다음 큰 기둥 높이) x 구간 길이}
 A = (nums[-1][0] - nums[0][0] + 1) * max_H
 
-if nums[0][1] != max_H:  # 첫번째값이 최대값인 경우 제외해줘야함(함수 내 처리도 가능할거같음)
-    Warmhouse(nums[0][0], nums[0][1])
-if nums[-1][1] != max_H:
-    Warmhouse(nums[-1][0], nums[-1][1], Reverse=True)
+Warmhouse(nums[0][0], nums[0][1])
+Warmhouse(nums[-1][0], nums[-1][1], Reverse=True)
 
 print(A)
