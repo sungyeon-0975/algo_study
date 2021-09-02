@@ -7,32 +7,28 @@ result = 0
 tc = int(input())
 for _ in range(tc):
     paper_list.append(list(map(int, input().split())))
-# paper_list.sort(key=lambda x:(x[0], x[1])) 
-paper_list.sort()
 
 
 
 
 
-zero = []
-one = []
+zero = [0, row]
+one = [0, col]
 for paper in paper_list:
     if paper[0] == 0:
         zero.append(paper[1])
-    elif paper[0] == 1:
+    else:
         one.append(paper[1])
 
+zero.sort()
 result = []    
-for i in range(1, len(zero) - 1):
-    result.append(zero[i + 1] - zero[i])
-result.append(zero[0])
-result.append(row - zero[-1])
+for i in range(1, len(zero)):
+    result.append(zero[i] - zero[i - 1])
 
+one.sort()
 result2 = []    
-for j in range(1, len(one) - 1):
-    result2.append(one[j + 1] - one[j])
-result2.append(one[0])
-result2.append(col - one[-1])
+for j in range(1, len(one)):
+    result2.append(one[j] - one[j - 1])
 
 print(max(result) * max(result2))
 
