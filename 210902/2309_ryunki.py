@@ -9,7 +9,7 @@ data = [int(input()) for i in range(9)]
 c_data = combinations(data, 7)
 
 answer = []
-for i in list(c_data):
+for i in c_data:
     if sum(i) == 100:
         for j in i:
             answer.append(j)
