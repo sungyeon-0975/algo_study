@@ -78,3 +78,39 @@ for test in range(1, 1 + int(input())):
 #
 #     print(my_max)
 #     print(my_min)
+
+
+# from itertools import permutations
+#
+#
+# N = int(input())
+# num = list(map(int, input().split()))
+# oper_cnt = list(map(int, input().split())) # +-x//
+# operator = ['+', '-', '*', '//']
+# p = []
+#
+# for i in range(4):
+#     for j in range(oper_cnt[i]):
+#         p.append(operator[i])
+#
+# oper = list(set(permutations(p)))
+# my_max = float('-inf')
+# my_min = float('inf')
+# for o in oper:
+#     cal = num[0]
+#     for n in range(N-1):
+#         if o[n] == '+':
+#             cal += num[n+1]
+#         elif o[n] == '-':
+#             cal -= num[n+1]
+#         elif o[n] == '*':
+#             cal *= num[n+1]
+#         else:
+#             cal = int(cal/num[n+1])
+#     if my_max < cal:
+#          my_max = cal
+#     if my_min > cal:
+#          my_min = cal
+#
+# print(my_max)
+# print(my_min)
