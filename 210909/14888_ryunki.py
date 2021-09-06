@@ -39,7 +39,7 @@ for test in range(1, 1 + int(input())):
 
     print(my_max)
     print(my_min)
-
+#
 # from itertools import permutations
 #
 # for test in range(1, 1 + int(input())):
