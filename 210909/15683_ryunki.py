@@ -3,14 +3,13 @@ sys.stdin = open('input_15683.txt')
 
 for test in range(1,1+int(input())):
     N,M = map(int,input().split())
-    data=[list(input().split()) for _ in range(N)]
+    data=[list(map(int,input().split())) for _ in range(N)]
 
-    print(data)
+    start = []
+    for i in range(N):
+        for j in range(M):
+            if data[i][j] != 0 and data[i][j]!=6:
+                start.append((i,j,data[i][j]))
 
+    print(start)
 
-    0 0 0 0 0 #
-    0 2 # # 0 #
-    0 # 0 0 6 #
-    0 6 # # 2 #
-    0 # 0 0 # #
-    # # # # # 5
