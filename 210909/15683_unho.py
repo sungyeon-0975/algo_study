@@ -17,12 +17,10 @@ Memory - 29200 KB
 Time - 1252 ms
 
 최적화... 어떻게 할지 감이 안잡힘ㅠ
-
 """
 
 
 import sys
-from pprint import pprint
 sys.stdin = open('input_15683.txt')
 
 
@@ -36,9 +34,9 @@ def solution(idx):
             for x in range(M):
                 if office[y][x] == 0:
                     tmp += 1
+
         if answer > tmp:
             answer = tmp
-        # pprint(office)
         return
 
     else:
@@ -92,22 +90,6 @@ def kind_plus(camera_num):
 
 
 
-def camera_5(start):                                                # 5번 카메라 감시구역 표시
-    while start:
-        node = start.pop()
-        for k in range(4):
-            y = node[0] + dr[k]
-            x = node[1] + dc[k]
-
-            while 0 <= y < N and 0 <= x < M and office[y][x] != 6:  # 벽이 나오기 전까지 같은 방향으로 진행
-                if not office[y][x]:                                # 0이면 # 으로 변경
-                    office[y][x] = 5
-                
-                y += dr[k]
-                x += dc[k]
-
-
-
 dr = [-1, 0, 1, 0]
 dc = [0, 1, 0, -1]
 
@@ -116,11 +98,9 @@ dc = [0, 1, 0, -1]
 test_case = int(input())
 
 for _ in range(test_case):
-
     N, M = map(int, input().split())
     office = [list(map(int, input().split())) for _ in range(N)]
     coordinate = []
-    five = []
     kind = [0, [0], [0, 2], [0, 1], [0, 1, 2]]
     answer = N * M
 
@@ -130,9 +110,16 @@ for _ in range(test_case):
             if 0 < office[i][j] < 5:
                 coordinate.append((office[i][j], i, j))
             elif office[i][j] == 5:
-                five.append((i, j))
+                for k in range(4):
+                    y = i + dr[k]
+                    x = j + dc[k]
+
+                    while 0 <= y < N and 0 <= x < M and office[y][x] != 6:  # 벽이 나오기 전까지 같은 방향으로 진행
+                        if not office[y][x]:                                # 0이면 # 으로 변경
+                            office[y][x] = '#'                        
+                        y += dr[k]
+                        x += dc[k]
                 
-    camera_5(five)
     n_len = len(coordinate)                
 
     solution(0)
