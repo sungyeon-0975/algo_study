@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aab2a5bc-2ea9-46cc-abd0-900552041f3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="aab2a5bc-2ea9-46cc-abd0-900552041f3e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +12,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.7992032">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/210909/1431_yoon.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="185">
-                  <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+                  <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/210916/11660_yoon.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="182">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
@@ -58,12 +65,13 @@
         <option value="$PROJECT_DIR$/210902/문자열 내 p와 y의 개수_unilion.py" />
         <option value="$PROJECT_DIR$/210909/13458_kisol.py" />
         <option value="$PROJECT_DIR$/210909/1431_yoon.py" />
+        <option value="$PROJECT_DIR$/210916/11660_yoon.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="441" />
-    <option name="y" value="85" />
+    <option name="x" value="158" />
+    <option name="y" value="91" />
     <option name="width" value="1446" />
     <option name="height" value="910" />
   </component>
@@ -85,7 +93,7 @@
             <path>
               <item name="algo_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo_study" type="462c0819:PsiDirectoryNode" />
-              <item name="210909" type="462c0819:PsiDirectoryNode" />
+              <item name="210916" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,8 +257,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="549" y="122" width="1446" height="910" extended-state="0" />
-    <editor active="true" />
+    <frame x="158" y="91" width="1446" height="910" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10866477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -557,13 +564,20 @@
     <entry file="file://$PROJECT_DIR$/210909/13458_yoon.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/210909/input_1431.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/210909/1431_yoon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/210909/input_1431.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/210916/11660_yoon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
