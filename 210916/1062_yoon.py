@@ -22,14 +22,14 @@ else:
         temp = set(input()) - default
         bit1 = 0
         for char in temp:
-            bit1 += alphabet[char]
+            bit1 += alphabet.get(char, 0)
         unlearnt.append(bit1)
 
     for com in combinations(alphabet, K):
         cnt = 0
         bit2 = 0
         for c in com:
-            bit2 += alphabet[c]
+            bit2 += alphabet.get(c, 0)
 
         for ul in unlearnt:
             if bit2 & ul == ul:
