@@ -8,7 +8,6 @@ python3: 29200KB 92ms
 
 """
 
-
 def DFS(start, index, plus, minus, multi, div):
     global my_max, my_min
     if index >= N:
@@ -39,6 +38,8 @@ for test in range(1, 1 + int(input())):
 
     print(my_max)
     print(my_min)
+
+
 #
 # from itertools import permutations
 #
