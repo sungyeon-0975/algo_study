@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('input_5658.txt')
 
 
 def addingWords(line):
