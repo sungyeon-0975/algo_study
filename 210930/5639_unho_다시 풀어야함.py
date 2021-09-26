@@ -1,4 +1,40 @@
 """
+구글링
+"""
+
+
+import sys
+sys.setrecursionlimit(1000)
+
+
+def solution(start, end):
+    if start > end:
+        return
+
+    div = end + 1
+
+    for i in range(start + 1, end + 1):
+        if tree[start] < tree[i]:
+            div = i
+            break
+
+    solution(start+1, div-1)
+    solution(div, end)
+    print(tree[start])
+
+
+tree = []
+while True:
+    try:
+        temp = int(sys.stdin.readline())
+        tree.append(temp)
+    except:
+        break
+
+solution(0, len(tree)-1)
+
+
+"""
 시간초과
 """
 # import sys
