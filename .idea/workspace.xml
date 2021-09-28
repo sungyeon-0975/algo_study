@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab2a5bc-2ea9-46cc-abd0-900552041f3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/210930/2112_yoon_미해결.py" beforeDir="false" afterPath="$PROJECT_DIR$/210930/2112_yoon_미해결.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,29 +35,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/210930/1068_yoon.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/210930/2112_yoon.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="24" selection-start-line="24" selection-end-line="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/210930/1953_yoon.py">
+            <entry file="file://$PROJECT_DIR$/210930/2112_yoon_미해결.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
-                  <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+                <state relative-caret-position="474">
+                  <caret line="35" lean-forward="true" selection-end-line="58" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -128,12 +110,13 @@
         <option value="$PROJECT_DIR$/210930/1952_yoon.py" />
         <option value="$PROJECT_DIR$/210930/2112_yoon.py" />
         <option value="$PROJECT_DIR$/210930/1953_yoon.py" />
+        <option value="$PROJECT_DIR$/210930/2112_yoon_미해결.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="553" />
-    <option name="y" value="128" />
+    <option name="x" value="583" />
+    <option name="y" value="55" />
     <option name="width" value="1300" />
     <option name="height" value="967" />
   </component>
@@ -191,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2112_yoon">
+  <component name="RunManager" selected="Python.2112_yoon_미해결">
     <configuration name="1068_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/210930/2112_yoon.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gojiy\algo_study\210930\2112_yoon_미해결.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4013_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2112_yoon_미해결" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,11 +246,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/210923" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/210930" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\gojiy\algo_study\210923\4013_yoon_undone.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/210930/2112_yoon_미해결.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2112_yoon_미해결" />
         <item itemvalue="Python.2112_yoon" />
         <item itemvalue="Python.1068_yoon" />
         <item itemvalue="Python.5639_yoon" />
         <item itemvalue="Python.1991_yoon" />
-        <item itemvalue="Python.4013_yoon" />
       </list>
     </recent_temporary>
   </component>
@@ -321,21 +304,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="553" y="128" width="1300" height="967" extended-state="0" />
+    <frame x="583" y="55" width="1300" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.17987321" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.17987321" />
       <window_info id="Structure" order="1" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info id="Favorites" order="2" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.25810325" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.30852342" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" x="586" y="829" width="1123" height="413" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
+      <window_info anchor="bottom" x="61" y="595" width="1184" height="413" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31578946" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31572628" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -403,6 +386,11 @@
           <url>file://$PROJECT_DIR$/210923/20364_kisol.py</url>
           <line>25</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/210930/2112_yoon_미해결.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -734,17 +722,17 @@
     <entry file="file://$PROJECT_DIR$/210930/2112_unho.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/210930/2112_yoon.py">
+    <entry file="file://$PROJECT_DIR$/210930/1953_yoon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="286">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/210930/1953_yoon.py">
+    <entry file="file://$PROJECT_DIR$/210930/2112_yoon_미해결.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="474">
+          <caret line="35" lean-forward="true" selection-end-line="58" selection-end-column="34" />
         </state>
       </provider>
     </entry>

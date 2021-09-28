@@ -19,8 +19,29 @@ def dfs(cnt, start, films):
         if cnt < ans:
             ans = cnt
         return
+    if cnt == K:
+        if cnt < ans:
+            ans = cnt
+        return
     else:
         for i in range(start, D):
+            switch = []
+            for j in range(W):
+                if films[i][j] == 1:
+                    films[i][j] = 0
+                    switch.append(j)
+            dfs(cnt+1, start+1, films)
+            for j in switch:
+                films[i][j] = 1
+
+            switch = []
+            for j in range(W):
+                if films[i][j] == 0:
+                    films[i][j] = 1
+                    switch.append(j)
+            dfs(cnt + 1, start + 1, films)
+            for j in switch:
+                films[i][j] = 0
 
 
 
@@ -33,3 +54,6 @@ for t in range(1, T+1):
     if check(films):
         ans = 0
     else:
+        dfs(0, 0, films)
+
+    print('#{} {}'.format(t, ans))
