@@ -1,25 +1,33 @@
+"""
+
+38708KB, 3912ms
+40776KB, 88ms
+
+"""
+
 import sys
+from bisect import bisect
 
 sys.stdin = open('input_5639.txt')
 sys.setrecursionlimit(10 ** 9)
-def match(start,end):
-    if start>end:
+
+
+def match(start, end):
+
+    if start >= end:
         return
+    d = tree[start]
+    idx = bisect(tree, d, start, end)
+    # print('idx : {}'.format(idx))
+    match(start + 1, idx)
+    match(idx, end)
+    print(d)
 
-    right = end+1
 
-    for i in range(start+1,end+1):
-        if tree[start]<tree[i]:
-            right = i
-            break
+tree = [*map(int, sys.stdin.read().split())]
 
-    match(start+1,right-1) # 왼쪽 트리
-    match(right,end) # 오른쪽 트리
-    print(tree[start])
+match(0, len(tree))
 
-tree = [*map(int,sys.stdin.read().split())]
-
-match(0,len(tree)-1)
 #
 # M = 9 ** 9
 # a = [*map(int, sys.stdin.read().split()),M]
