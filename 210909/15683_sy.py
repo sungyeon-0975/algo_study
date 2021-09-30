@@ -94,7 +94,7 @@ if __name__ == "__main__":
             elif office[i][j] != 6:
                 # thing.append(office[i][j], i, j) # s1
                 thing.append([check(dirs, i, j) for dirs in types[office[i][j]]])
-
+    print(thing)
     changed = 0
     term = len(thing)
     # backtrack(0) # s1
