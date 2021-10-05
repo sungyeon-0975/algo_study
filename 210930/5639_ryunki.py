@@ -18,13 +18,14 @@ def match(start, end):
         return
     d = tree[start]
     idx = bisect(tree, d, start, end)
-    # print('idx : {}'.format(idx))
+    print('idx : {}'.format(idx))
     match(start + 1, idx)
     match(idx, end)
     print(d)
 
 
 tree = [*map(int, sys.stdin.read().split())]
+print(tree)
 
 match(0, len(tree))
 
@@ -32,7 +33,6 @@ match(0, len(tree))
 # M = 9 ** 9
 # a = [*map(int, sys.stdin.read().split()),M]
 # print(a)
-#
 # def f(i, u):
 #     p = a[i]
 #     i += 1

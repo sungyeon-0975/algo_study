@@ -11,6 +11,8 @@ def check(films):
             return False
     return True
 
+
+
 def dfs(cnt, start, films):
     global ans
     if cnt >= ans:
