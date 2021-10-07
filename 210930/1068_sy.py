@@ -1,6 +1,9 @@
 '''
-80ms
+80ms/ 68ms
 '''
+import sys
+input = sys.stdin.readline
+
 def find_leaf(idx):
     global cnt
     if childs[idx]:
