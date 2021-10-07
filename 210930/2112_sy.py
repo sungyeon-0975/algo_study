@@ -3,7 +3,7 @@ sys.stdin = open('input/2112_input.txt')
 
 def dfs(idx, cnt):
     global res
-    if cnt < res:
+    if cnt < res: #<= res:
         if idx < d:
             dfs(idx + 1, cnt)
 
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         d, w, k = map(int, input().split())
         membrane = [list(map(int, input().split())) for _ in range(d)]
         mem_copy = copy.deepcopy(membrane)
-        res = d
+        res = d # k
 
         dfs(0, 0)
 
