@@ -34,12 +34,12 @@ for tc in range(1, T+1):
 print('-----')
 
 
+
 """
 비트마스킹
 """
 
 import sys
-from itertools import combinations
 sys.stdin = open('input.txt')
 
 
