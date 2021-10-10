@@ -10,12 +10,12 @@ sys.stdin = open('input_1094.txt')
 
 for test in range(1,1+int(input())):
     X = int(input())
-    answer = 0
-    for i in range(7):
-        if X & (1<<i):
-            answer += 1
+    # answer = 0
+    # for i in range(7):
+    #     if X & (1<<i):
+    #         answer += 1
+    #
+    # print(answer)
 
-    print(answer)
 
-
-    # print(sum(list(map(int,(bin(X)[2:])))))
+    print(sum(list(map(int,(bin(X)[2:])))))

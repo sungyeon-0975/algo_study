@@ -15,8 +15,7 @@ for test in range(1,1+int(input())):
         temp = []
         for j in result: # 새롭게 갱신될 때 마다 다 더해주면 모든 경우의 수 [0,a,b,a+b,c,a+c,b+c,a+b+c]
             temp.append(data[i]+j)
-        for h in temp:
-            result.add(h)
+        result.update(temp)
 
     print('#{} {}'.format(test,len(result)))
 
