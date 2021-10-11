@@ -11,8 +11,6 @@ def airstrip(fixed, num): # 고정된 행 또는 열, 몇 번 돌아야 하는�
             if start - fixed[i] < 0: # 오르막
 
 
-
-
 T = int(input())
 for t in range(1, T+1):
     N, X = map(int, input().split())
