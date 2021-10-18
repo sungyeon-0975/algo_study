@@ -17,5 +17,6 @@ for i in range(n):
             temp = dp[j]
         elif N[i] == M[j]:
             dp[j] = temp + 1
+        print(dp)
 
 print(max(dp))
