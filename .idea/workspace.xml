@@ -14,20 +14,29 @@
     <favorites_list name="algo_study" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6162207">
+    <splitter split-orientation="horizontal" split-proportion="0.57090104">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/211021/5653_yoon.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret selection-end-line="1" selection-end-column="34" />
+                <state relative-caret-position="78">
+                  <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/211021/2383_yoon.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1390">
+                  <caret selection-end-line="1" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/211021/2477_yoon.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
                   <caret selection-end-line="1" selection-end-column="34" />
@@ -36,10 +45,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/211021/2477_yoon.py">
+            <entry file="file://$PROJECT_DIR$/211021/2117_yoon.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+                <state relative-caret-position="-26">
+                  <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -48,11 +57,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/211021/2477_input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                <state relative-caret-position="299">
+                  <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/211021/2117_input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="144" column="39" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -72,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/210902/문자열p와y개수_kisol.py" />
-        <option value="$PROJECT_DIR$/210902/2309_kisol.py" />
         <option value="$PROJECT_DIR$/210819/2559_kisol.py" />
         <option value="$PROJECT_DIR$/210902/2559_kisol.py" />
         <option value="$PROJECT_DIR$/210902/input_2559.txt" />
@@ -123,13 +139,14 @@
         <option value="$PROJECT_DIR$/211021/2383_yoon.py" />
         <option value="$PROJECT_DIR$/211021/2477_input.txt" />
         <option value="$PROJECT_DIR$/211021/2477_yoon.py" />
+        <option value="$PROJECT_DIR$/211021/2117_input.txt" />
+        <option value="$PROJECT_DIR$/211021/2117_yoon.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="362" />
-    <option name="y" value="38" />
-    <option name="width" value="1449" />
+    <option name="x" value="320" />
+    <option name="width" value="1619" />
     <option name="height" value="974" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -186,7 +203,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2477_yoon">
+  <component name="RunManager" selected="Python.2117_yoon">
+    <configuration name="2117_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algo_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/211021" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/211021/2117_yoon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="2383_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,27 +309,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5644_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algo_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/211014" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\gojiy\algo_study\211014\5644_yoon미완.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="5644_yoon미완" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,11 +353,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2117_yoon" />
         <item itemvalue="Python.2477_yoon" />
         <item itemvalue="Python.2383_yoon" />
         <item itemvalue="Python.5644_sy" />
         <item itemvalue="Python.3752_yoon" />
-        <item itemvalue="Python.5644_yoon" />
       </list>
     </recent_temporary>
   </component>
@@ -358,21 +375,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="362" y="38" width="1449" height="974" extended-state="0" />
+    <frame x="326" y="54" width="1619" height="974" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.1608788" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.14358002" />
       <window_info id="Structure" order="1" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info id="Favorites" order="2" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.23928571" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.23333333" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" x="306" y="675" width="1184" height="413" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
+      <window_info anchor="bottom" x="471" y="680" width="1184" height="413" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41904762" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.15" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -447,8 +464,8 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/211021/2477_yoon.py</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/211021/2117_yoon.py</url>
+          <line>24</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
@@ -517,25 +534,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/210930/input_1068(T).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/210930/2112_unho.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/210930/2112_sy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/210930/input_2112.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -781,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/211021/5653_yoon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/211021/2383_input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -800,22 +791,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/211021/2383_yoon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-1390">
           <caret selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/211021/2477_input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="299">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/211021/5653_yoon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/211021/2477_yoon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/211021/2117_unho.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/211021/2117_yoon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/211021/2117_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="144" column="39" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="39" />
         </state>
       </provider>
     </entry>
