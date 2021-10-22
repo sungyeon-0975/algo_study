@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('5653_input.txt')
 
 
 dr = [-1, 0, 1 ,0]
@@ -26,6 +26,7 @@ for tc in range(1, T+1):
 
 
     while K != 0:
+        print(time_chk)
         for idx in range(10, 0, -1):                    # 동시에 번식시 생명력이 높은게 우선 되어야 하므로 뒤에서 부터 순회
             if not time_chk[idx]:                       # 번식 시기일때
                 active[idx] += len(info[idx])

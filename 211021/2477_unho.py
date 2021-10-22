@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-sys.stdin = open('input.txt')
+sys.stdin = open('2477_input.txt')
 
 
 T = int(input())
@@ -55,14 +55,13 @@ for tc in range(1, T+1):
                     task_reception[i][1] -= 1       # 시간 경과
                 elif not task_reception[i][1]:      # 접수 끝났으면
                     if A == i+1:                    # 접수처 번호와 지갑 두고간 접수처 번호와 같으면 (접수번호는 1번부터이므로 +1)
-                        recept_answer.append(task_reception[i][0])      # 손님 번호 저장
+                        recept_answer.append(task_reception[i][0])  # 손님 번호 저장
                     wait_repair.append(task_reception[i][0])        # 손님을 수리 대기줄에 추가
                     task_reception[i] = []                          # 접수처 비움
 
                     if wait_reception:                              # 비웠는데, 대기줄 있으면 바로 시작
                         num = wait_reception.popleft()
                         task_reception[i] = [num, reception[i]-1]
-        
 
         for i in range(len(task_repair)):           # 수리처 순회
             if not task_repair[i]:                  # 수리처가 비어있으면

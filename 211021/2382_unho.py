@@ -11,6 +11,7 @@ def move():
 
         loc[(stack[idx][0], stack[idx][1])] -= 1
         loc[(r, c)] = loc.get((r, c), 0) + 1
+        
         stack[idx] = [r, c, stack[idx][2], stack[idx][3]]
     stack.sort(key=lambda x: (x[0], x[1], x[2]))
 

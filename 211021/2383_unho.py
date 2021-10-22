@@ -1,19 +1,20 @@
 import sys
 from collections import deque
-sys.stdin = open('input.txt')
+sys.stdin = open('2383_input.txt')
 
 
 def solution(arr, stair_idx):
     down = deque()
     minutes = 0
     idx = 0
-    while idx < len(arr) or down:
-        # print('---------------- time --------------------')
-        # print('----- 시작 전 ------')
-        # print(f'흐른 시간 : {minutes}')
-        # print(f'사람들 계단까지 남은 시간 : {arr}')
-        # print(f'계단에 있는 사람 남은 시간 : {down}')
 
+    # print('---------------- time --------------------')
+    # print('----- 시작 전 ------')
+    # print(f'흐른 시간 : {minutes}')
+    # print(f'사람들 계단까지 남은 시간 : {arr}')
+    # print(f'계단에 있는 사람 남은 시간 : {down}')
+
+    while idx < len(arr) or down:
         minutes += 1
         if len(down):                      # 계단 누구 있을때
             for k in range(len(down)):     # 계단에 있는 사람 시간 경과
@@ -30,7 +31,7 @@ def solution(arr, stair_idx):
             if arr[k] <= 0 and len(down) < 3:       # 계단에 도착했고, 3명이 꽉 차지 않았으면 추가
                 down.append(stair[stair_idx][2])
                 idx += 1
-            elif arr[k]:                            # 계단 꽉 찼으면 대기
+            elif arr[k]:                            
                 arr[k] -= 1
 
         # print('----- 시작 후 ------')
@@ -39,8 +40,6 @@ def solution(arr, stair_idx):
         # print(f'계단에 있는 사람 남은 시간 : {down}')
 
     return minutes
-            
-
 
 
 T = int(input())
