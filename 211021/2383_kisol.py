@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open('input.txt')
+sys.stdin = open('2383_input.txt')
 input = sys.stdin.readline
 '''
 1 : 사람
@@ -53,7 +53,7 @@ for tc in range(1, TC + 1):
         p[i][1] = s[1][2] + abs(p_pos[i][0] - s[1][0]) + abs(p_pos[i][1] - s[1][1]) + 1  # 2번계단까지의 이동시간 + 대기시간(1분) + 계단내려가는 시간
         p[i][2] = p[i][0] - p[i][1]  # 1번계단과 2번계단의 시간 차이
 
-    p_choose = sorted(p, key=lambda x: x[2])  # 1번계단과 2번계단의 시간 차이 기준으로 정렬 (1번계단이 더 짧은사람 -> 2번계단이 더 짧은 사람)
+    p_choose = sorted(p, key=lambda x: x[0])  # 1번계단과 2번계단의 시간 차이 기준으로 정렬 (1번계단이 더 짧은사람 -> 2번계단이 더 짧은 사람)
 
     if len(p) == 1:  # 사람이 한명이면 2개 계단 중 짧은 시간 출력
         print('#{} {}'.format(tc, min(p_choose[0][0], p_choose[0][1])))

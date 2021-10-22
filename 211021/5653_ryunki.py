@@ -34,7 +34,6 @@ for test in range(1, 1 + int(input())):
                 if K - i < hp - 1: # ??
                     temp.append(j)
 
-
                 for dx, dy in move: # 돌면서
                     nx = j[0] + dx
                     ny = j[1] + dy
