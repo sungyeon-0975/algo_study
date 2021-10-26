@@ -10,13 +10,11 @@ ans = -1E9
 for i in range(1, N+1):
     for j in range(1, M+1):
         arr[i][j] = arr[i-1][j] + arr[i][j-1] + arr[i][j] - arr[i-1][j-1]
-pprint(arr)
+# pprint(arr)
 for i in range(1, N+1):
     for j in range(1, M+1):
-        # if arr[i][j] > ans:
-        #     ans = arr[i][j]
-        for k in range(i+1):
-            for l in range(j+1):
-                if arr[i][j] - arr[k-1][l] - arr[k][l-1] + arr[k-1][j-1] > ans:
-                    ans = arr[i][j] - arr[k-1][l] - arr[k][l-1] + arr[k-1][j-1]
+        for k in range(1, i):
+            for l in range(1, j):
+                if arr[i][j] - arr[k-1][j] - arr[i][l-1] + arr[k-1][j-1] > ans:
+                    ans = arr[i][j] - arr[k-1][j] - arr[i][l-1] + arr[k-1][j-1]
 print(ans)
