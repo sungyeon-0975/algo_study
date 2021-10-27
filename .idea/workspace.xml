@@ -50,8 +50,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/211028/5650_yoon_죽일거임.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="344">
-                  <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+                <state relative-caret-position="494">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
                 </state>
               </provider>
             </entry>
@@ -117,8 +117,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/211028/5650_input.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="9" />
+                <state relative-caret-position="52">
+                  <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -138,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/210916/1062_kisol.py" />
         <option value="$PROJECT_DIR$/210923/input_9372.txt" />
         <option value="$PROJECT_DIR$/210923/9372_kisol.py" />
         <option value="$PROJECT_DIR$/210923/input_11725.txt" />
@@ -187,16 +186,17 @@
         <option value="$PROJECT_DIR$/211028/1749_input.txt" />
         <option value="$PROJECT_DIR$/211028/1749_yoon.py" />
         <option value="$PROJECT_DIR$/211028/1749_yoon_푸는중.py" />
-        <option value="$PROJECT_DIR$/211028/5650_input.txt" />
         <option value="$PROJECT_DIR$/211028/5650_yoon.py" />
+        <option value="$PROJECT_DIR$/211028/5650_input.txt" />
+        <option value="$PROJECT_DIR$/211028/5650_yoon_죽일거임.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="184" />
-    <option name="y" value="30" />
-    <option name="width" value="1707" />
-    <option name="height" value="1008" />
+    <option name="x" value="238" />
+    <option name="y" value="25" />
+    <option name="width" value="1605" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -383,21 +383,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="184" y="30" width="1707" height="1008" extended-state="0" />
-    <editor active="true" />
+    <frame x="238" y="25" width="1605" height="1013" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.13600959" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.1448628" />
       <window_info id="Structure" order="1" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info id="Favorites" order="2" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.28146452" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.27986348" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" x="679" y="830" width="1184" height="573" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
+      <window_info anchor="bottom" x="306" y="708" width="1184" height="573" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21428572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2138794" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -819,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/211028/5650_input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/211028/5650_unho.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -833,10 +825,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/211028/5650_input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/211028/5650_yoon_죽일거임.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        <state relative-caret-position="494">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
