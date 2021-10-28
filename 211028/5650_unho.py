@@ -10,13 +10,13 @@ BLOCK = {                   # 블럭의 종류별 반사되는 방향
     5: [2, 3, 0, 1],
 }
  
-dr = [-1, 0, 1, 0]          # 델타 탐색
-dc = [0, 1, 0, -1]
+dr = [-1, 0, 1, 0]          # 델타 탐색 / 위 오른 아래 왼
+dc = [0, 1, 0, -1]    
  
 T = int(input())
 answer = []
  
-for tc in range(1, T+1):
+for tc in range(1, 1+1):
     N = int(input())
     board = [list(map(int, input().split())) for _ in range(N)]
 

@@ -24,7 +24,8 @@ def solution(n, wires):
                                 stack.append(e)
                 
                 num += 1        # 다음 그룹에 속한다고 표시를 위해, 첫번째 그룹을 다 돌고 나면 그룹 번호 숫자 증가
-        
+        print(visited)
+
         one_cnt = visited[1:].count(1)      # 1번 그룹 개수 카운트
         two_cnt = visited[1:].count(2)      # 2번 그룹 개수 카운트
 
