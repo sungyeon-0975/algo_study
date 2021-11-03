@@ -6,43 +6,42 @@ sys.stdin = open('input.txt')
 
 """
 다익스트라 활용
+Python
+    Memory - 115 mb
+    Time - 3.556 s
 """
+def dijkstra():
+    heap = [(0, X)]
 
-
-# 인덱스 이용한 다익스트라 구현
-# 시간 초과...
-def dijkstra_default():
-    for _ in range(N):
-        min_idx = -1
-        min_distance = 1e10
-
-        for i in range(1, N+1):
-            if not visited[i] and min_distance > distance[i]:
-                min_idx = i
-                min_distance = distance[i]
-        visited[min_idx] = 1
-
-        for e in linked.get(min_idx, []):
-            if not visited[e] and distance[e] > distance[min_idx] + 1:
-                distance[e] = distance[min_idx] + 1
+    while heap:
+        node = heapq.heappop(heap)
+        if not visited[node[1]]:
+            visited[node[1]] = 1
+            distance[node[1]] = node[0]
+            for e in linked[node[1]]:
+                if not visited[e]:
+                    heapq.heappush(heap, (distance[node[1]]+1, e))
 
 
 N, M, K, X = map(int, sys.stdin.readline().split())     # 도시의 개수 / 도로의 개수 / 거리 정보 / 출발 도시 번호
 
-linked = {}                     # 도시간 연결 관계
-visited = [0] * (N+1)           # 도시 방문 여부
-distance = [0] + [1e10] * (N)   # 출발 도시에서 해당 도시와의 최소 거리
-distance[X] = 0                 # 출발 도시 시작 거리 0으로 초기화
+linked = [[] for _ in range(N+1)]   # 도시간 연결 관계
+visited = [0] * (N+1)               # 도시 방문 여부
+distance = [0] + [1e10] * (N)       # 출발 도시에서 해당 도시와의 최소 거리
+distance[X] = 0                     # 출발 도시 시작 거리 0으로 초기화
 
 for _ in range(M):                                      # 연결관계 초기화
     a, b = map(int, sys.stdin.readline().split())
-    linked[a] = linked.get(a, []) + [b]
+    linked[a].append(b)
 
-dijkstra_default()
+dijkstra()
 
-for i in range(1, len(distance)):       # 해당 거리만큼에 떨어져 있는 도시들 번호 출력
-    if distance[i] == K:
-        print(i)
+if distance.count(K):
+    for i in range(1, len(distance)):
+        if distance[i] == K:
+            print(i)
+else:
+    print(-1)
 
 
 
