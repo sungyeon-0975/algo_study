@@ -23,7 +23,7 @@ for t in range(1, T + 1):
             Q_level[i] += 1
     # 마지막 값
     Q_level[N] = Q_level[N - 1]
-
+    print(Q_level)
     # 실수 개수 출력
     for i in range(Q):
         s, e = questions[i][0] - 1, questions[i][1] - 1

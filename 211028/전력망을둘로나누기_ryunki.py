@@ -12,6 +12,7 @@ def solution(n, wires):
                 stack.extend(graph[node])
                 cnt+=1
         return cnt
+
     for i in range(len(wires)):
         graph = {x: [] for x in range(n + 1)}
 
