@@ -5,6 +5,8 @@ def dijkstra(x):
     dist[x] = 0
     while heap:
         n, w = heappop(heap)
+        if w > dist[n]:
+            continue
         for num, wei in G[n]:
             new_wei = wei + w
             if new_wei < dist[num]:
