@@ -24,6 +24,8 @@ for _ in range(M):
     graph[a].append(b)
 
 bfs(X)
+print(answer)
+
 for i in range(N+1):
     if answer[i] == K:
         print(i)
