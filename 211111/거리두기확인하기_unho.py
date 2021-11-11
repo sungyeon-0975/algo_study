@@ -3,7 +3,7 @@ from collections import deque
 DR = [-1, 0, 1, 0]          # 델타 탐색
 DC = [0, 1, 0, -1]
 
-def dfs(i, j, place):              # 시작 좌표, 현재 방의 정보
+def bfs(i, j, place):              # 시작 좌표, 현재 방의 정보
     visited = [[0]*5 for _ in range(5)]     # 방문 처리위한 초기화
     visited[i][j] = 1
 
@@ -37,7 +37,7 @@ def solution(places):
             for j in range(5):
                 if place[i][j] == 'P':                      # 현재 위치가 사람이면
                     cnt += 1                                # 사람 수 증가
-                    case_ans.append(dfs(i, j, place))       # 현재 위치 사람으로부터 2 이하로 떨어진 거리 탐색
+                    case_ans.append(bfs(i, j, place))       # 현재 위치 사람으로부터 2 이하로 떨어진 거리 탐색
         
         if sum(case_ans) == cnt:        # 모든 사람들이 2 초과해서 떨어진 경우에
             answer.append(1)            # 정답에 1 추가
