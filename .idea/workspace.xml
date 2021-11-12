@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aab2a5bc-2ea9-46cc-abd0-900552041f3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py" beforeDir="false" afterPath="$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/211202/문자열압축_yoon.py">
+        <entry file="file://$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="390">
+              <caret line="15" column="31" lean-forward="true" selection-end-line="23" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -37,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/210930/5639_yoon_미해결.py" />
         <option value="$PROJECT_DIR$/211007/17419_yoon.py" />
         <option value="$PROJECT_DIR$/211007/11811_yoon.py" />
         <option value="$PROJECT_DIR$/211007/3752_yoon.py" />
@@ -88,14 +88,15 @@
         <option value="$PROJECT_DIR$/211111/1806_yoon.py" />
         <option value="$PROJECT_DIR$/211111/거리두기확인하기_yoon.py" />
         <option value="$PROJECT_DIR$/211202/문자열압축_yoon.py" />
+        <option value="$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="669" />
-    <option name="y" value="49" />
-    <option name="width" value="1371" />
-    <option name="height" value="987" />
+    <option name="x" value="674" />
+    <option name="y" value="127" />
+    <option name="width" value="1184" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -105,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,10 +113,16 @@
               <item name="algo_study" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo_study" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algo_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo_study" type="462c0819:PsiDirectoryNode" />
+              <item name="211202" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1806_yoon">
+  <component name="RunManager" selected="Python.문자열압축_yoon(푸는중)">
     <configuration name="11659_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="교점에별만들기_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="문자열압축_yoon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +225,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/211104" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/211202" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/211104/교점에별만들기_yoon.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gojiy\algo_study\211202\문자열압축_yoon(푸는중).py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,12 +301,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="문자열압축_yoon(푸는중)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algo_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/211202" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.문자열압축_yoon(푸는중)" />
+        <item itemvalue="Python.문자열압축_yoon" />
         <item itemvalue="Python.1806_yoon" />
         <item itemvalue="Python.11659_yoon" />
         <item itemvalue="Python.11728_yoon" />
-        <item itemvalue="Python.교점에별만들기_yoon" />
       </list>
     </recent_temporary>
   </component>
@@ -318,21 +346,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="49" width="1371" height="987" extended-state="0" />
+    <frame x="674" y="127" width="1184" height="869" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.19804952" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.2303665" />
       <window_info id="Structure" order="1" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info id="Favorites" order="2" sideWeight="0.50096714" side_tool="true" weight="0.13498993" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.23681125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.22040816" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" x="153" y="694" width="1184" height="573" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
+      <window_info anchor="bottom" x="24" y="143" width="764" height="573" id="Debug" order="5" sideWeight="0.50052685" type="FLOATING" weight="0.4088937" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2309496" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22721088" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -410,6 +438,10 @@
           <url>file://$PROJECT_DIR$/211104/18352_yoon.py</url>
           <line>7</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py</url>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -760,10 +792,10 @@
     <entry file="file://$PROJECT_DIR$/211111/거리두기확인하기_unho.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/211202/문자열압축_yoon.py">
+    <entry file="file://$PROJECT_DIR$/211202/문자열압축_yoon(푸는중).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="390">
+          <caret line="15" column="31" lean-forward="true" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
