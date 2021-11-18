@@ -7,7 +7,7 @@ Python
 
 import sys
 import heapq
-sys.stdin = open('input.txt')
+sys.stdin = open('4485_input.txt')
 
 
 def dijkstra():                     # 다익스트라
