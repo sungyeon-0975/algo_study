@@ -17,5 +17,6 @@ def solution(files):
         answer[i] = ''.join(answer[i])
     return answer
 
+# .png 빼면 elif에서 tail 못 거름
 print(solution( ["img12.png", "img10.png", "img02.png", "img1.png", "IMG01.GIF", "img2.JPG"]))
 print(solution(["F-5 Freedom Fighter", "B-50 Superfortress", "A-10 Thunderbolt II", "F-14 Tomcat"]))

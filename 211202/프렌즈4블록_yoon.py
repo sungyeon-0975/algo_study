@@ -28,6 +28,7 @@ def solution(m, n, board):
                         block[k][j], block[k-1][j] = block[k-1][j], block[k][j]
                     clear[i][j] = 0
 
+    # return block
     return answer
 
 print(solution(4, 5, ["CCBDE", "AAADE", "AAABF", "CCBBF"]))

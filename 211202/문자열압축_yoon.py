@@ -12,7 +12,6 @@ def solution(s):
                 else:
                     temp += s[i*(j-1):i*j]
                 cnt = 1
-        # for? len(s)//i 곱해서 단위별로 같으면 누적... 아귀찮아
         answer = min(answer, len(temp))
     return answer
 
