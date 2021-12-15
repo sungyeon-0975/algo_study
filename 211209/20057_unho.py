@@ -48,6 +48,7 @@ while y != 0 or x != 0:                 # 토네이도가 0,0 에 도달하면 �
         nr = y + (dr[(direction+k[0])%4] * k[1]) + (dr[direction] * k[2])       # 모래가 흩어지는 상대적 위치들 계산
         nc = x + (dc[(direction+k[0])%4] * k[1]) + (dc[direction] * k[2])
         
+
         remove_sand += int(board[r][c] * v)                                     # 비율대로 흩어지는 양들 합산
         if 0 <= nr < N and 0 <= nc < N:                                         # 격자 내부이면 새로운 위치에 합산
             board[nr][nc] += int(board[r][c] * v)
