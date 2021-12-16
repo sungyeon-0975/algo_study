@@ -1,4 +1,4 @@
-""" 냅색 알고리즘 """
+# """ 냅색 알고리즘 """
 import sys
 sys.stdin = open('input.txt')
 
