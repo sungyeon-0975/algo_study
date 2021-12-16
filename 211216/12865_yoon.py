@@ -16,5 +16,7 @@ for i in range(1, N+1):
             arr[i][j] = arr[i-1][j] # 추가 못함
         else:
             arr[i][j] = max(arr[i-1][j], arr[i-1][j-w]+v)   # max(추가 안한 가치, 추가 가능한 가치)
+    # print(w, v)
+    # print(arr[i])
 # print(arr)
 print(arr[N][K])

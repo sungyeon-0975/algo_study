@@ -1,6 +1,7 @@
 def solution(N, number):
     answer = -1
     case = [[int(str(N) * i)] for i in range(1, 9)]
+    # print(case)
 
     if [number] in case:
         return case.index([number]) + 1
@@ -16,6 +17,7 @@ def solution(N, number):
                     if num2 != 0:
                         temp.add(num1 // num2)
         case[i].extend(temp)
+        # print(case)
         if number in case[i]:
             answer = i + 1
             break
