@@ -52,7 +52,7 @@ for _ in range(T):
     dr = [0, 1, 0, -1]
     dc = [-1, 0, 1, 0]  # 좌하우상
     r, c, d, l = N // 2, N // 2, 0, 1  # 행, 열, 방향, 길이
-    org_sand = sum(sum(arr, []))
+    # org_sand = sum(sum(arr, []))
     ans = 0
     # 방향별 [행 방향 이동, 열 방향 이동, 비율]
     effects = [[
