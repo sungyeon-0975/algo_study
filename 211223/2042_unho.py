@@ -1,6 +1,6 @@
 import sys
 from math import ceil, log2
-sys.stdin = open('input.txt')
+sys.stdin = open('2042_input.txt')
 
 
 # 초기 세그먼트 트리 생성

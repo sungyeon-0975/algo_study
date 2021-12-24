@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('1167_input.txt')
 
 
 def dfs(node, distance):                # 노드 번호 / 현재까지 지름
