@@ -8,10 +8,10 @@ def bfs(r, c):
 
     while dq:
         r, c = dq.popleft()
-        cnt = 0
-        for i in range(4):
-            nr = r + dr[i]
-            nc = c + dc[i]
+        w = 0
+        for k in range(4):
+            nr = r + dr[k]
+            nc = c + dc[k]
 
             if 0 <= nr < n and 0 <= nc < m:  # 이동가능
                 if mp[nr][nc]:  # 연결가능
@@ -19,12 +19,12 @@ def bfs(r, c):
                         visited[nr][nc] = 1
                         dq.append((nr, nc))
                 else:  # 물
-                    cnt += 1
+                    w += 1
 
-        counter.append((r, c, cnt))
+        counter.append((r, c, w))
 
-    for r, c, cnt in counter:
-        mp[r][c] = mp[r][c] - cnt if mp[r][c] > cnt else 0
+    for r, c, w in counter:
+        mp[r][c] = mp[r][c] - w if mp[r][c] > w else 0
 
 
 n, m = map(int, input().split())
