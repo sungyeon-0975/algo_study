@@ -20,6 +20,7 @@ def bfs(r, c):
                         dq.append((nr, nc))
                 else:  # 물
                     cnt += 1
+
         counter.append((r, c, cnt))
 
     for r, c, cnt in counter:
@@ -32,6 +33,7 @@ dr = [1, 0, -1, 0]
 dc = [0, 1, 0, -1]
 ans = 0
 
+# 시작지점 초기화
 start = []
 for i in range(n):
     for j in range(m):
