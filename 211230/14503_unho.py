@@ -4,7 +4,7 @@ Python
     Time - 0.068 s
 """
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('14503_input.txt')
 
 
 def DFS(y, x, direction):                                       # 좌표, 바라보는 방향
