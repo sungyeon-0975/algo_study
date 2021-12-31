@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('14503_input.txt')
 # input = sys.stdin.readline
 
-# 상좌하우
+# 상우하좌
 di = [-1, 0, 1, 0]
 dj = [0, 1, 0, -1]
 
