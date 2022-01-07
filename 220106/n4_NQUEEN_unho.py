@@ -17,10 +17,10 @@ def DFS(y, x, N, board, coordinates):               # 좌표, 배열의 크기, 
                 c = node[1] + dc[k]
 
                 if 0 <= r < N and 0 <= c < N and not visited[r][c] and (r, c) not in coordinates:   # 퀸을 놓치 않았고, 확인해보지 않은 좌표일때
-                    stack.append((r, c))            # 스택에 추가하여 확인
-                elif (r, c) in coordinates:         # 이동할 곳에 이미 퀸을 놓았으면 False 반환하며 종료
+                    stack.append((r, c))                # 스택에 추가하여 확인
+                elif (r, c) in coordinates:             # 이동할 곳에 이미 퀸을 놓았으면 False 반환하며 종료
                     return False
-    else:               # 대각선 상에 퀸이 없으므로 True 반환
+    else:                                               # 대각선 상에 퀸이 없으므로 True 반환
         return True
 
 
