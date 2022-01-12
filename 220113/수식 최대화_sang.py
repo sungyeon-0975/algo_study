@@ -4,15 +4,15 @@ from itertools import permutations
 def solution(expression):
     answer = 0
     exp = ["-", "+", "*"]
-    nums = list(map(int, expression.replace(
-        '-', ' ').replace('+', ' ').replace('*', ' ').split()))
-    exps = list(filter(lambda x: x in exp, expression))
-
     for ex in permutations(exp):
-        tmp = 0
-        for e in ex:
-            break
-
+        e1, e2 = ex[0], ex[1]
+        print(e1, e2)
+        lst = []
+        for i in expression.split(e1):
+            l = [f"({j})" for j in i.split(e2)]
+            lst.append(f"({e2.join(l)})")
+        tmp = eval(e1.join(lst))
+        print(lst)
         answer = max(answer, abs(tmp))
     return answer
 
