@@ -6,13 +6,11 @@ def solution(expression):
     exp = ["-", "+", "*"]
     for ex in permutations(exp):
         e1, e2 = ex[0], ex[1]
-        print(e1, e2)
         lst = []
         for i in expression.split(e1):
             l = [f"({j})" for j in i.split(e2)]
             lst.append(f"({e2.join(l)})")
         tmp = eval(e1.join(lst))
-        print(lst)
         answer = max(answer, abs(tmp))
     return answer
 
