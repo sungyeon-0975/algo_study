@@ -29,16 +29,12 @@ def solution(expression):
                 if op_list[op_idx] == op[e[idx]]:       # 현재 우선순위가 가장 높은 연산자를 만나면 조건에 맞게 연산
                     if op[e[idx]] == '+':
                         num_list[num_idx] = num_list[num_idx] + num_list[num_idx + 1]
-                        op_list.pop(op_idx)
-                        num_list.pop(num_idx+1)
                     elif op[e[idx]] == '-':
                         num_list[num_idx] = num_list[num_idx] - num_list[num_idx + 1]
-                        op_list.pop(op_idx)
-                        num_list.pop(num_idx+1)
                     elif op[e[idx]] == '*':
                         num_list[num_idx] = num_list[num_idx] * num_list[num_idx + 1]
-                        op_list.pop(op_idx)
-                        num_list.pop(num_idx+1)
+                    op_list.pop(op_idx)
+                    num_list.pop(num_idx+1)
                 else:
                     num_idx += 1        # 다음 숫자
                     op_idx += 1         # 다음 연산자
