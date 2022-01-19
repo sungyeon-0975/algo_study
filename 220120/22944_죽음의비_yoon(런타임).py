@@ -9,15 +9,18 @@ def dfs(r, c, h, d, move):
     if arr[r][c] == 'E':
         if move < ans:
             ans = move
+        return
     # if h == 0:
     #     return
+    if arr[r][c] == 'U':
+        d = D
     for k in range(4):
         ni = r + dir[k][0]
         nj = c + dir[k][1]
         if 0 <= ni < N and 0 <= nj < N and not visited[ni][nj]:
             visited[ni][nj] = 1
-            if arr[ni][nj] == 'U':
-                d = D
+            # if arr[ni][nj] == 'U':
+            #     d = D
             if d != 0:
                 dfs(ni, nj, h, d-1, move+1)
             elif d == 0 and h > 0:
