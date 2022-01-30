@@ -3,6 +3,7 @@ import sys
 sys.stdin = open('1963_input.txt')
 # input = sys.stdin.readline
 
+# 32396KB / 148ms
 
 def bfs():
     global res
@@ -27,7 +28,8 @@ def bfs():
 
 prime = [True] * 10000
 for i in range(2, 101):
-    for j in range(2, 10000//i):
+    for j in range(2, 10000//i + 1):
+        if i*j > 9999: continue
         prime[i*j] = False
 
 T = int(input())
