@@ -16,7 +16,7 @@ while q:
         cnt += 1
     for next in [now-1, now+1, now*2]:
         if 0 <= next <= 100000:
-            if not visited[next] or visited[next] == visited[now] + 1:
+            if not visited[next]:
                 visited[next] = visited[now]+1
                 q.append(next)
 print(sec-1)
