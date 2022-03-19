@@ -17,7 +17,7 @@ def solution(n, info):
             return
         if cnt < n:
             ryan_temp = deepcopy(ryan_list)
-            ryan_temp[10-idx] = info[10-idx] + 1    # 뒷자리부터, 무조건 apeach+1 (ryan 점수추가)
+            ryan_temp[10-idx] = info[10-idx] + 1    # 무조건 apeach+1 (ryan 점수추가)
             dfs(apeach, ryan+idx, cnt + ryan_temp[10-idx], idx+1, ryan_temp)
         ryan_temp = deepcopy(ryan_list)
         if info[10-idx] > 0:
