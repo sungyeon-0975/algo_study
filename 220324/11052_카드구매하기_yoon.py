@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('11052_input.txt')
 # input = sys.stdin.readline
 
-#
+# 30864KB / 184ms
 
 N = int(input())
 packs = [0] + list(map(int, input().split()))
