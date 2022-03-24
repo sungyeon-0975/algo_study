@@ -1,35 +1,33 @@
 from collections import defaultdict, deque
 
+
 def solution(tickets):
     answer = []
-    gh = defaultdict(list)
+    routes = defaultdict(list)
     flight = len(tickets)
     
     for s, e in tickets:
-        gh[s].append(e)
+        routes[s].append(e)
     
-    routes = defaultdict(deque)
-    for k, v in gh.items():
-        routes[k] = deque(sorted(v))
-    
+    visited = defaultdict(list)
+
+    for k, v in routes.items():
+        v.sort()
+        visited[k] = [0 for _ in range(len(v))]
+
     def dfs(route, cnt):
-        nonlocal answer
-        
         if cnt == flight:
-            answer = route
-            return
+            return route
         
         s = route[-1]
-        for e in list(routes[s]):
-            e = routes[s].popleft()
-            t =  dfs(route+[e], cnt+1)
-            if t:
-                return t
-            
-            routes[s].appendleft(e)
+        for idx, e in enumerate(list(routes[s])):
+            if not visited[s][idx]:
+                visited[s][idx] = 1
+                t = dfs(route+[e], cnt+1)
+                if t:
+                    return t
+                visited[s][idx] = 0
         
-    dfs(["ICN"], 0)
-        
-        
+    answer = dfs(["ICN"], 0)
         
     return answer
