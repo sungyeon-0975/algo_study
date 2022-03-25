@@ -15,6 +15,11 @@ def solution(n, computers):
                 union(i, j)                 # i와 j 연결 시키기
                 
     for i in range(n):                      # 모든 컴퓨터들 네트워크의 대표 컴퓨터로 연결관계 정리
-        find(i)    
-    
+        find(i)
+        
+    print(network)
+
     return len(set(network))                # 네트워크 개수 카운트
+
+print(solution(3, [[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
+print(solution(3, [[1, 1, 0], [1, 1, 1], [0, 1, 1]]))
